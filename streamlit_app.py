@@ -7,6 +7,8 @@ import streamlit as st
 """
 # Welcome to Streamlit!
 
+YOGEESHA 
+
 Edit `/streamlit_app.py` to customize this app to your heart's desire :heart:
 
 If you have any questions, checkout our [documentation](https://docs.streamlit.io) and [community
@@ -17,7 +19,7 @@ In the meantime, below is an example of what you can do with just a few lines of
 
 
 with st.echo(code_location='below'):
-    total_points = st.slider("Number of points in spiral", 1, 5000, 2000)
+    total_points = st.slider("Number of points in spiral", 10, 5000, 200)
     num_turns = st.slider("Number of turns in spiral", 1, 100, 9)
 
     Point = namedtuple('Point', 'x y')
